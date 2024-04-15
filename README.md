@@ -1,4 +1,3 @@
-
 # Aplicación CRUD de PHP
 
 Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete) simple. Es una demostración básica de cómo integrar PHP con una base de datos MySQL para gestionar datos de usuarios. La aplicación permite a los usuarios agregar, ver, editar y eliminar información de usuario.
@@ -17,7 +16,7 @@ Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete
 ![Página de Inicio](images/display.png)
 
 - **Funcionalidad:** Muestra todos los usuarios de la base de datos en un formato de tabla.
-- **Características:** 
+- **Características:**
   - Ver todos los usuarios.
   - Enlaces de navegación para agregar, editar o eliminar información de usuario.
 
@@ -26,7 +25,7 @@ Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete
 ![Agregar Usuario](images/add.png)
 
 - **Funcionalidad:** Permite agregar un nuevo usuario a la base de datos.
-- **Características:** 
+- **Características:**
   - Formulario para ingresar detalles del usuario (nombre, correo electrónico, teléfono móvil, contraseña).
   - Validación de datos y envío a la base de datos.
 
@@ -35,14 +34,14 @@ Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete
 ![Editar Usuario](images/edit.png)
 
 - **Funcionalidad:** Permite editar detalles de usuarios existentes.
-- **Características:** 
+- **Características:**
   - Formulario prellenado con la información actual del usuario.
   - Actualización de detalles del usuario en la base de datos.
 
 ### 4. Eliminar Usuario (`delete.php`)
 
 - **Funcionalidad:** Facilita la eliminación de un usuario de la base de datos.
-- **Características:** 
+- **Características:**
   - Eliminación de información de usuario basada en el ID de usuario.
 
 ## Conexión a la Base de Datos (`connect.php`)
@@ -61,7 +60,11 @@ Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete
 
 Esta aplicación es una demostración básica y no implementa medidas avanzadas de seguridad. Es recomendable utilizar declaraciones preparadas (prepared statements) u ORM para las interacciones con la base de datos para prevenir ataques de inyección SQL.
 
----
+CRUD es un acrónimo que significa Crear, Leer, Actualizar y Eliminar (del inglés Create, Read, Update, Delete). Se refiere a las cuatro operaciones básicas que se pueden realizar sobre datos almacenados en una base de datos o sistema de gestión de información. Estas operaciones son esenciales para cualquier aplicación que trabaje con datos, ya que permiten a los usuarios crear, acceder, modificar y eliminar información de forma eficiente.
 
-Siéntete libre de contribuir a este proyecto o sugerir mejoras. Para cualquier consulta o problema, por favor abre un issue en este repositorio.
+Ejemplos de CRUD
 
+Crear: Agregar un nuevo producto a un catálogo de productos en línea.
+Leer: Consultar la información de un cliente en un sistema de gestión de clientes.
+Actualizar: Modificar la dirección de envío de un pedido en una tienda en línea.
+Eliminar: Eliminar un registro de errores de un sistema de monitoreo.
